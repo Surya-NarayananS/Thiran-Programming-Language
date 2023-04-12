@@ -4,16 +4,8 @@ Thiran (திறன்) is a simple, easy-to-learn programming language that al
 
 #### Note: This is part of our college's final project and is currently in development
 
-(As of 26th march, 2023)
+(As of 12th april, 2023)
 ## Active Todo:
-- built-in functions (eg: type())
-- List Datatype
-- Ability to import libraries
-- Useful libraries like math, etc
-- error names in tamil
-- multi-line comment ability
-- write multiple demo programs
-- ability to run a program file with our compiler
 - explainer comments
 
 ## Issues Found:
@@ -22,12 +14,23 @@ Thiran (திறன்) is a simple, easy-to-learn programming language that al
     no error is thrown.
 2. [Resolved - 26th march 2023]
     Outside a fn, 'return' works inside loops, conditionals.
+3. [Resolved - 8th april 2023]
+    'break' doesn't work as expected inside nested loops.
 
 ## Future Todo:
 - Exception Handling
-- Nested Function Call (Need to check)
+- Ability to call functions inside conditionals or inside another function call
+- Multi-level indexing
+- Multi-line comments
+- Bitwise Operators
+- standalone math library
+- random library
+- datetime library
+- OS file handling support
+- GUI library
+- Extend Error class to give more details
 
-## Entire Tasks List
+## Entire Tasks List:
 1. Numbers (int, float)
 2. string
 3. unary number (+/-)
@@ -35,22 +38,28 @@ Thiran (திறன்) is a simple, easy-to-learn programming language that al
 5. arithmetic operators
 6. binary operation evaluation
 7. execute a program file with multiple lines of code
-8. operator precedence
-9. comparison operators
-10. logical operators
-11. assignment operators
-12. variables
-13. I/O statments
-14. conditionals (if, elif, else)
-15. Loops (for, while)
-16. Functions
-17. Jump statements (return, break, continue)
->(as of 26th march, 2023)
-18. Useful built-in functions (eg: type(), etc)
-19. List Datatype
-20. Importing libraries
-21. Useful built-in libraries like math, etc
-22. single line & multi-line comments
-23. write multiple demo programs
-24. explainer comments for the code
+8. single line comments
+9. operator precedence
+10. comparison operators
+11. logical operators
+12. assignment operators
+13. variables
+14. I/O statments
+15. conditionals (if, elif, else)
+16. Loops (for, while)
+17. Functions
+18. Jump statements (return, break, continue)
+19. Basic built-in functions (eg: type_of(), round_func(), power(), etc)
+20. List Datatype
+21. Built-in functions for list manipulation:
+    - append_list()
+    - remove_from_list()
+    - add_to_list()
+    - pop_list()
+    - list_len()
+22. Importing libraries
+23. Useful built-in functions for math, random, etc
+24. write multiple demo programs
+>>>> (Here - as of 12th april 2023)
+25. explainer comments for the code
 --------------------------------------------------------------
