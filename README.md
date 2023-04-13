@@ -1,6 +1,6 @@
 # Thiran-Programming-Language
 # திறன் நிரலாக்க மொழி
-Thiran (Tamil:திறன் lit."ability") is a simple, easy-to-learn programming language that allows coding in Tamil. The programming language will help tamil-medium school students to develop their problem-solving skills by making code more readable and understandable. It will familiarize them with the concepts and fundamentals of programming before moving on to real-world programming languages. Furthermore, this project will contribute to the growth of the technology industry in Tamil-speaking regions, leading to more diverse and inclusive programming solutions.
+Thiran (Tamil: திறன் lit."ability") is a simple, easy-to-learn programming language that allows coding in Tamil. The programming language will help tamil-medium school students to develop their problem-solving skills by making code more readable and understandable. It will familiarize them with the concepts and fundamentals of programming before moving on to real-world programming languages. Furthermore, this project will contribute to the growth of the technology industry in Tamil-speaking regions, leading to more diverse and inclusive programming solutions.
 
 #### Note: This is part of our college's final project and is currently in development
 
