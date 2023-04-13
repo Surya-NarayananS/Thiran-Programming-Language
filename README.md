@@ -1,12 +1,14 @@
 # Thiran-Programming-Language
 # திறன் நிரலாக்க மொழி
-Thiran (திறன்) is a simple, easy-to-learn programming language that allows coding in Tamil. The programming language will help tamil-medium school students to develop their problem-solving skills by making code more readable and understandable. It will familiarize them with the concepts and fundamentals of programming before moving on to real-world programming languages. Furthermore, this project will contribute to the growth of the technology industry in Tamil-speaking regions, leading to more diverse and inclusive programming solutions.
+Thiran (Tamil:திறன் lit."ability") is a simple, easy-to-learn programming language that allows coding in Tamil. The programming language will help tamil-medium school students to develop their problem-solving skills by making code more readable and understandable. It will familiarize them with the concepts and fundamentals of programming before moving on to real-world programming languages. Furthermore, this project will contribute to the growth of the technology industry in Tamil-speaking regions, leading to more diverse and inclusive programming solutions.
 
 #### Note: This is part of our college's final project and is currently in development
 
 (As of 12th april, 2023)
-## Active Todo:
-- explainer comments
+## Active Todo (currently working):
+- auto-completion suggestions & syntax highlighting support in notepad++ for Thiran (.ti files)
+- autohotkey file for automatic conversion of english-typed Thiran keywords into Tamil
+- Finishing touches
 
 ## Issues Found:
 1. [Resolved - 26th march 2023] 
@@ -49,7 +51,7 @@ Thiran (திறன்) is a simple, easy-to-learn programming language that al
 16. Loops (for, while)
 17. Functions
 18. Jump statements (return, break, continue)
-19. Basic built-in functions (eg: type_of(), round_func(), power(), etc)
+19. Basic built-in functions (eg: sin(), round(), power(), random(), etc)
 20. List Datatype
 21. Built-in functions for list manipulation:
     - append_list()
@@ -60,6 +62,7 @@ Thiran (திறன்) is a simple, easy-to-learn programming language that al
 22. Importing libraries
 23. Useful built-in functions for math, random, etc
 24. write multiple demo programs
->>>> (Here - as of 12th april 2023)
-25. explainer comments for the code
+25. Additionals: 
+    - Syntax-highlighting & auto-completion support for Thiran (.ti) files in notepad++
+    - autohotkey file for automatic conversion of english-typed Thiran keywords into Tamil
 --------------------------------------------------------------
