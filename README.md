@@ -4,7 +4,7 @@ Thiran (Tamil: திறன் lit."ability") is a simple, easy-to-learn program
 
 ## Example Programs:
 ### 1. Program to calculate factorial of a number:
-![Screenshot](https://github.com/Surya-NarayananS/Thiran-Programming-Language/blob/efd4813b2562118ebfbe59df3ed529f17ef05fd9/Example%20Program.png)
+![alt text](https://github.com/Surya-NarayananS/Thiran-Programming-Language/blob/efd4813b2562118ebfbe59df3ed529f17ef05fd9/Example%20Program.png)
 
 ### 2. Program to calculate area of a rectangle:
 ```
@@ -28,10 +28,8 @@ Thiran (Tamil: திறன் lit."ability") is a simple, easy-to-learn program
 ```
 -------------------------------------------------------
 ## Active Todo (currently working):
-(As of 13th april, 2023)
-- Auto-completion suggestions & syntax highlighting support in notepad++ for Thiran (.ti files)
-- Autohotkey file for automatic conversion of english-typed Thiran keywords into Tamil
-- Finishing touches
+(As of 22nd april, 2023)
+- Documentation work.
 
 ## Future Todo:
 - Exception Handling
@@ -79,6 +77,7 @@ Thiran (Tamil: திறன் lit."ability") is a simple, easy-to-learn program
 25. Additionals: 
     - Syntax-highlighting & auto-completion support for Thiran (.ti) files in notepad++
     - autohotkey file for automatic conversion of english-typed Thiran keywords into Tamil
+26. Documentation works
 --------------------------------------------------------------
 
 ## Issues Found:
@@ -89,4 +88,6 @@ Thiran (Tamil: திறன் lit."ability") is a simple, easy-to-learn program
     Outside a fn, 'return' works inside loops, conditionals.
 3. [Resolved - 8th april 2023]
     'break' doesn't work as expected inside nested loops.
-#### Update: The language works flawlessly and no issues have been found.
+4. [Resolved - 22nd april 2023]
+    List manipulation built-in fn calls don't work inside loops (due to pass by reference issue in ThiranInterpreter.py)
+#### Update: The language works fine and no issues have been found.
