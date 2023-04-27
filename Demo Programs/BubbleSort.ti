@@ -1,0 +1,28 @@
+# Bubble Sort Program
+
+காட்டு("Bubble Sort Algorithm:-")
+
+arr = []
+நீளம் = வாங்கு("Enter length of array: ")
+i = 1
+
+திரும்பச்செய்(நீளம்):
+	text = "Enter element " + வாக்கியம்(i) + ": "
+	element = வாங்கு(text)
+	பட்டியல்_இணை(arr, element)
+	i = i + 1
+முடி
+
+காட்டு("List before sorting:", arr)
+திரும்பச்செய்(நீளம்-1):
+	x = 0
+	திரும்பச்செய்(நீளம்-1):
+		சரியெனில்(arr[x] > arr[x+1]):
+			பட்டியல்_சேர்(arr, x+2, arr[x])
+			பட்டியல்_நீக்கு(arr, arr[x])
+		முடி
+		x = x + 1
+	முடி
+முடி
+
+காட்டு("List after sorting:",arr)

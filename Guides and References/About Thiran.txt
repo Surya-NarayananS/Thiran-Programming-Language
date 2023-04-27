@@ -1,0 +1,139 @@
+#####################################################
+(c) 2023 Surya Narayanan <suryanarayanansg@gmail.com>
+#####################################################
+
+(As of 12th April, 2023)
+##############################
+         Active Todo:
+##############################
+- recursion support
+
+###############################
+         Issues Found:
+###############################
+1. [Resolved - 26th march 2023] 
+    Outside a loop, when 'break' is used inside an 'if', no error is thrown when 'if' evaluates to false
+2. [Resolved - 26th march 2023]
+    Outside a fn, 'return' works inside loops, conditionals.
+3. [Resolved - 8th april 2023]
+    'break' doesn't work as expected inside nested loops.
+4. [Resolved - 22nd april 2023]
+    List manipulation built-in fn calls don't work inside a structure (due to pass by reference issue in ThiranInterpreter.py
+
+###############################
+         Future Todo:
+###############################
+- Exception Handling
+- Ability to call functions inside another function call, conditionals
+- Multi-level indexing
+- Multi-line comments
+- Bitwise Operators
+- standalone math library
+- random library
+- datetime library
+- OS file handling support
+- GUI library
+- Extend Error class to give more details
+
+##############################################################
+[Process - Repeat steps 1 to 4 until the language is complete]
+##############################################################
+1.Design/Update Grammar for the language
+2.Update Lexer (recognize Tokens)
+3.Update Parser (construct AST using the Grammar)
+4.Update Interpreter (execute the AST using symbol table)
+
+
+--------------------------------------------------------------
+Note: Our language does not support (not planned):
+    1. Calling functions inside conditionals, another function_call (for simplicity)
+    2. Type Conversion
+    3. Exception Handling
+    4. Nested Function Call (Need to check)
+    5. Multi-level indexing support
+    6. Bitwise operators
+    7. Object Oriented programming
+    8. Multi-line comments
+--------------------------------------------------------------
+
+##############################################################
+                      Entire Tasks List
+##############################################################
+1. Numbers (int, float)
+2. string
+3. unary number (+/-)
+4. Errors
+5. arithmetic operators
+6. binary operation evaluation
+7. execute a program file with multiple lines of code
+8. single line comments
+9. operator precedence
+10. comparison operators
+11. logical operators
+12. assignment operators
+13. variables
+14. I/O statments
+15. conditionals (if, elif, else)
+16. Loops (for, while)
+17. Functions
+18. Jump statements (return, break, continue)
+19. Basic built-in functions (eg: type_of(), round_func(), power(), etc)
+20. List Datatype
+21. Built-in functions for list manipulation:
+    - append_list()
+    - remove_from_list()
+    - add_to_list()
+    - pop_list()
+    - list_len()
+22. Importing libraries
+23. Useful built-in functions for math, random, etc
+24. write multiple demo programs
+>>>> (Here)
+25. explainer comments for the code
+--------------------------------------------------------------
+List datatype 
+a = [1, 2, -3.2, "surya"]
+supports indexing:
+- a[0]
+- [1, 2, 3][2]
+Note: no negative indexing support & no Multi-level indexing support
+supports list addition:
+- [1,2,3] + [4,5,6] = [1,2,3,4,5,6]
+List does not support: -, *, /
+Built-in functions for list:
+- list_len()
+- append_list()
+- remove_from_list()
+- add_to_list()
+- pop_list()
+-------------------------------------------------------------
+##################################
+Process to add a builtin func:
+##################################
+For normal builtin function:
+-----------------------------
+1. define func in ThiranBuiltins.py
+2. add the func name to self.BUILT_IN_FUNCTIONS with its value as [no_of_params, functionCall]
+
+For builtin list function:
+---------------------------
+1. define func inside Interpreter class in ThiranInterpreter.py
+2. add the func name to self.BUILT_IN_FUNCTIONS with its value as [no_of_params, functionCall]
+3. add the func name to list in execute_builtin_func() inside Interpreter class in ThiranInterpreter.py
+-------------------------------------------------------------
+
+
+Importing Modules:
+------------------------
+using import keyword followed by a list of modules to import
+eg:
+import [alpha, beta, gamma]
+import [math]
+# modulenames should not include '.ti' extension
+module files should be in the same path as the main file
+Note:
+    modules are imported one after the another
+    importing modules will just update the main file's symbol_table and defined_functions
+    so if two modules have a function with same name, then the latter module's function will
+    run when called in the main file
+-----------------------------------------------------------------

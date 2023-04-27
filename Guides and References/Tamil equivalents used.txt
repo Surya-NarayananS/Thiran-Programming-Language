@@ -1,0 +1,55 @@
+Note - The tamil words were chosen based on simplicity. 
+So they need not necessarily translate exactly to their english counterparts!
+
+print - காட்டு
+input - வாங்கு
+and - மற்றும்
+or - அல்லது
+not - இல்லை
+true - சரி
+false - தவறு
+if - சரியெனில்
+elif - அல்லதெனில்
+else - தவறெனில்
+end - முடி
+while - உண்மைவரை
+for - திரும்பச்செய்
+func - செயல்பாகம்
+return - வெளிகொடு
+break - நிறுத்து 
+continue - தொடர்     
+import - இணை    
+list - பட்டியல்
+
+print() - காட்டு()
+input() - வாங்கு()
+int() - முழுஎண்()
+float() - புள்ளிஎண்()
+string() - வாக்கியம்()
+exit() - வெளியேறு()
+type - வகை()
+append_list() - பட்டியல்_இணை()
+remove_from_list() - பட்டியல்_நீக்கு()
+add_to_list() - பட்டியல்_சேர்()
+pop_list() - பட்டியல்_சுருக்கு()
+list_len() - பட்டியல்_நீளம்()
+
+
+Keywords:
+and
+or
+not
+true
+false
+if
+elif
+else
+end
+while
+for
+func
+return
+break
+continue
+import
+

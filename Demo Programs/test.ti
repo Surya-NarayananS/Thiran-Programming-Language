@@ -1,0 +1,22 @@
+# Example Program: Bubble Sort
+
+arr = [7, -3, 0, -10, 5, 2, -1]
+நீளம் = பட்டியல்_நீளம்(arr)
+
+காட்டு("Bubble Sort Algorithm:-")
+காட்டு("List before sorting:", arr)
+
+திரும்பச்செய்(நீளம்-1):
+	x = 0
+	திரும்பச்செய்(நீளம்-1):
+		சரியெனில்(arr[x] > arr[x+1]):
+			பட்டியல்_சேர்(arr, x+2, arr[x])
+			பட்டியல்_நீக்கு(arr, arr[x])
+		முடி
+		x = x + 1
+	முடி
+முடி
+
+காட்டு("List after sorting:",arr)
+
+
