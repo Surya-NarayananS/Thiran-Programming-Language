@@ -1,0 +1,7 @@
+# திறன் நிரல் மொழி 
+#(c) 2023 Surya Narayanan <suryanarayanansg@gmail.com>
+
+# Demo - Input Output
+
+பெயர் = வாங்கு("உங்கள் பெயரை உள்ளிடுக: ")
+காட்டு("வணக்கம்", பெயர் + "!")
