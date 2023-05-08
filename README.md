@@ -1,12 +1,12 @@
 # Thiran-Programming-Language
-# திறன் நிரலாக்க மொழி
+<h1> திறன் நிரலாக்க மொழி </h1>
 Thiran (Tamil: திறன் lit."ability") is a simple and easy-to-learn programming language that allows coding in Tamil. The programming language will help tamil-medium school students to develop their problem-solving skills by making code more readable and understandable. It will familiarize them with the concepts and fundamentals of programming before moving on to real-world programming languages. Furthermore, this project will contribute to the growth of the technology industry in Tamil-speaking regions, leading to more diverse and inclusive programming solutions.
--------------------------------------------------------
+
 ## Minimum Requirements for Thiran:
  - Any 64-bit Windows - 7 or higher running computer.
  - 50 MB of minimum disk space for the software.
  - No additional software or program is required to run this standalone software.
-Note: Thiran is designed to run only on the Windows platform and not on Linux or Mac OS.
+ - Note: Thiran is designed to run only on the Windows platform and not on Linux or Mac OS.
 ## Installing Thiran:
  - Thiran has its own standalone setup which can be downloaded from the Thiran Setup Folder here.
  - Once downloaded, double-click Setup.exe and follow through with the installer, and install Thiran.
@@ -28,7 +28,7 @@ Note: Thiran is designed to run only on the Windows platform and not on Linux or
     தமிழில் ப்ரோக்ராம்மிங் எளிது!
  ```
  - Congratulations, you successfully ran your first Thiran program.
-----------------------------------------------------------------
+
 ## Example Programs:
 ### 1. Program to calculate factorial of a number:
 ![alt text](https://github.com/Surya-NarayananS/Thiran-Programming-Language/blob/efd4813b2562118ebfbe59df3ed529f17ef05fd9/Example%20Program.png)
@@ -54,15 +54,3 @@ Note: Thiran is designed to run only on the Windows platform and not on Linux or
 செவ்வகத்தின் பரப்பளவு: 37.5 அலகுகள்
 ```
 > "The fundamental principles that will guide both the education system at large, as well as the individual institutions within it are: [...] promoting multilingualism and the power of language in teaching and learning" - National Education Policy, 2020
-## Future Todo:
-- Exception Handling
-- Ability to call functions inside conditionals or inside another function call
-- Multi-level indexing
-- Multi-line comments
-- Bitwise Operators
-- standalone math library
-- random library
-- datetime library
-- OS file handling support
-- GUI library
-- Extend Error class to give more details
