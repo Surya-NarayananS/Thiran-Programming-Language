@@ -27,10 +27,6 @@ Thiran (Tamil: திறன் lit."ability") is a simple and easy-to-learn prog
 செவ்வகத்தின் பரப்பளவு: 37.5 அலகுகள்
 ```
 -------------------------------------------------------
-## Active Todo (currently working):
-(As of 27th April, 2023)
-- Documentation work.
-
 ## Future Todo:
 - Exception Handling
 - Ability to call functions inside conditionals or inside another function call
@@ -79,15 +75,3 @@ Thiran (Tamil: திறன் lit."ability") is a simple and easy-to-learn prog
     - autohotkey file for automatic conversion of english-typed Thiran keywords into Tamil
 26. Documentation works
 --------------------------------------------------------------
-
-## Issues Found:
-1. [Resolved - 26th march 2023] 
-    Outside a loop, when 'break' is used inside 'if' & 'if' evaluates to false
-    no error is thrown.
-2. [Resolved - 26th march 2023]
-    Outside a fn, 'return' works inside loops, conditionals.
-3. [Resolved - 8th april 2023]
-    'break' doesn't work as expected inside nested loops.
-4. [Resolved - 22nd april 2023]
-    List manipulation built-in fn calls don't work inside loops (due to pass by reference issue in ThiranInterpreter.py)
-#### Update: The language works fine and no issues have been found.
